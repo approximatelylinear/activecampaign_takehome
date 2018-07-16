@@ -387,29 +387,6 @@ class AddressResource(Api):
     def create(self, address_data):
         """
         Add a new address to the system.
-        data =  {
-            'company_name': 'self',
-            'address_1': '1234 Active Campaign Drive',
-            'address_2': '',
-            'city': 'Some City',
-            'state': 'Some State',
-            'zipcode': 'Some Zipcode',
-            'country': 'Some Country',
-            'list_id': ['1']
-        }
-        schema = AddressSchema()
-        post_data = schema.dump(data).data
-        post_data
-        resp = requests.post(api.url,
-            params={
-                'api_action': 'address_add',
-                'api_key': 'eb39d797fbd71fbb850c531dc2ae7422a445a3584065ff0a42ad4cb737e0359fe446f034',
-                'api_output': 'json'
-            },
-            data=post_data
-        )
-        resp.json()
-
         """
         api_action = 'address_add'
         schema = schemas.AddressSchema()
