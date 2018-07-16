@@ -8,7 +8,7 @@ This is an implementation of the Active Campaign takehome exercise.
 
 Installation
 ------------
-1. Clone the repository `https://github.com/approximatelylinear/activecampaign_takehome`
+1. Clone the repository_.
 2. Navigate to the directory with the code and run `make install`
 3. Add your Active Campaign configuration details. Update the file 'sample.env' in 'activecampaign_takehome' with the correct values and rename to `.env`.
 
@@ -27,3 +27,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _repository: https://github.com/approximatelylinear/activecampaign_takehome
