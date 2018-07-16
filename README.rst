@@ -3,7 +3,7 @@ ActiveCampaign Takehome
 =======================
 
 
-This is an implementation oof the Active Campaign takehome exercise.
+This is an implementation of the Active Campaign takehome exercise.
 
 
 Installation
