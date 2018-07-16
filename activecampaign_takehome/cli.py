@@ -98,8 +98,8 @@ def create_message(subject, fromemail, fromname, reply2, priority, list_id, text
     """
     Create a text message
 
-    Usage:
-        activecampaign_takehome create_message 'Test Message' 'mjb_sender@example.com' 'Test Sender 1' 'mjb_receiver@example.com' 5 1 'This is a test message'
+    Example:
+        activecampaign_takehome create_message --subject 'Test Message' --fromemail 'sender@example.com' --fromname 'Test Sender 1' --reply2 'receiver@example.com' --priority 5 --list_id 1 --text 'This is a test message'
     """
     config = act.Config()
     resource = act.MessageResource(config)
