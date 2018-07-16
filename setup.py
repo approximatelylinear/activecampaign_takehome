@@ -15,7 +15,8 @@ requirements = [
     'Click>=6.0',
     'requests',
     'python-dateutil==2.7.3',
-    'python-dotenv==0.8.2'
+    'python-dotenv==0.8.2',
+    'marshmallow==2.15.3'
 ]
 
 setup_requirements = ['pytest-runner', ]
